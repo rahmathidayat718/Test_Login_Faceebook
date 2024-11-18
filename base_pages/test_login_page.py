@@ -6,7 +6,7 @@ class Test_Login_Page:
     # Locator
     email_xpath = '//*[@id="email"]'
     password_xpath = '//*[@id="pass"]'
-    btn_login_xpath = '//*[@id="u_0_9_lQ"]'
+    btn_login_xpath = '//form/div[2]/button'
 
     # Constructor
     def __init__(self, driver):
